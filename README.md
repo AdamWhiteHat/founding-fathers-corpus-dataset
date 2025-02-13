@@ -1,21 +1,22 @@
 # Founding Fathers Corpus Dataset
-
+  
 **A ~180k documents, 66 million-word corpus**
 
-
-![The All-American Corpus](https://raw.githubusercontent.com/AdamWhiteHat/founding-fathers-corpus-dataset/refs/heads/main/American-Flag-Banner.jpg)
-
+<picture>
+  <img src="https://raw.githubusercontent.com/AdamWhiteHat/founding-fathers-corpus-dataset/refs/heads/main/American-Flag-Banner.jpg" alt="An All-American Corpus" />
+</picture>
 
 ## Description
 
 [Founders Online](https://founders.archives.gov/) is a [National Archives](https://www.archives.gov/) resource that makes available  
 ~180K writings/letters of the Founders of the United States of America.  
-  
+
 Originally extracted by GitHub user [jaytimm](https://github.com/jaytimm) using the Founders Online  
 [API](https://founders.archives.gov/API/docdata/) and made available at his [founders-online-corpus](https://github.com/jaytimm/founders-online-corpus/tree/master) repository in a  
 R Data Serialization (RDS) format.  
-  
+
 My contribution was converting the compressed RDS files into their  
+<br div="background-image:url('https://raw.githubusercontent.com/AdamWhiteHat/founding-fathers-corpus-dataset/refs/heads/main/American-Flag-Banner.jpg')" />
 respective CSV files.  
   
 These CSV files range in (uncompressed) sizes from 52 MB to 203 MB,  
