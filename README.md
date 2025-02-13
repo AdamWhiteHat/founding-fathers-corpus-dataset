@@ -3,22 +3,30 @@
 **A ~180k documents, 66 million-word corpus**
 
 
-![1500x500-American-Flag-Twitter-Header0028](https://github.com/user-attachments/assets/962dac91-c384-49af-bfe3-a09c98a7e2a6)
+![The All-American Corpus](https://raw.githubusercontent.com/AdamWhiteHat/founding-fathers-corpus-dataset/refs/heads/main/American-Flag-Banner.jpg)
 
 
 ## Description
-[Founders Online](https://founders.archives.gov/) is a [National
-Archives](https://www.archives.gov/) resource that makes available
-\~180K writings/letters of the Founders of the United States of America.
 
-Originally extracted by GitHub user [jaytimm](https://github.com/jaytimm) using the Founders Online [API](https://founders.archives.gov/API/docdata/) and made available at his [founders-online-corpus](https://github.com/jaytimm/founders-online-corpus/tree/master) repository as R Data Serialization (RDS) format.
-
-My contribution was converting the compressed RDS files into their respective CSV files.
-
-These CSV files range in (uncompressed) sizes from 52 MB to 203 MB, totaling 795 MB (155 MB compressed).
-
-Since these were mostly text and compress very well, it was silly to leave them uncompressed, so they appear here as compressed files. I went with .ZIP format instead of 7Zip format to make them as accessable as possible.
-
+[Founders Online](https://founders.archives.gov/) is a [National Archives](https://www.archives.gov/) resource that makes available  
+~180K writings/letters of the Founders of the United States of America.  
+  
+Originally extracted by GitHub user [jaytimm](https://github.com/jaytimm) using the Founders Online  
+[API](https://founders.archives.gov/API/docdata/) and made available at his [founders-online-corpus](https://github.com/jaytimm/founders-online-corpus/tree/master) repository in a  
+R Data Serialization (RDS) format.  
+  
+My contribution was converting the compressed RDS files into their  
+respective CSV files.  
+  
+These CSV files range in (uncompressed) sizes from 52 MB to 203 MB,  
+totaling 795 MB uncompressed (or 10 MB to 38 MB compressed,  
+totaling 155 MB compressed.)  
+  
+Since these were mostly text and compress very well, it was silly to  
+leave them uncompressed, so they appear here as compressed files.   
+I went with .ZIP format instead of 7Zip format to make them as  
+accessable as possible.  
+  
 
 
 
@@ -38,9 +46,8 @@ Since these were mostly text and compress very well, it was silly to leave them 
 |                             |          |           |             |  
 | Total                       |          | 181,477   | 66,174,691  |
 
-Note: The word counts are very rough, and a
-single document may be double counted. (See Founders Online for an
-explanation).
+Note: The word counts are very rough, and a single document may  
+be double counted. (See Founders Online for an explanation).  
 
 
 
@@ -57,36 +64,47 @@ Geo Graham
 
 ### Descriptions of the Columms
 
-The `title`:`date_to` columns have been extracted directly from [document
-metadata](https://founders.archives.gov/Metadata/) made available by
-Founders Online as XML. The `api` column was derived from the
-`permalink` and `project` columns, and used to access/scrape document
-text. The `og_text` column contains document text as presented on
-Founders Online, which includes quite a bit of line breaks and odd
-spacing. The `text` column is a stripped version of `og_test`, with
-whitespace and line breaks removed. These data are not perfect.
-The `period` column categorizes each document in corpus historically.
-Categories/dates are based on Founders Online.
+The `title`:`date_to` columns have been extracted directly from  
+[document metadata](https://founders.archives.gov/Metadata/) made available by Founders Online as XML.  
+The `api` column was derived from the `permalink` and `project`  
+columns, and used to access/scrape document text. The `og_text`  
+column contains document text as presented on Founders Online,  
+which includes quite a bit of line breaks and odd spacing.  
+The `text` column is a stripped version of `og_test`, with whitespace  
+and line breaks removed. These data are not perfect.   
+The `period` column categorizes each document in corpus  
+istorically. Categories/dates are based on Founders Online.  
 
 
 
 ## Caveats
 
-With the exception of the `text` column, the data presented here have
-been extracted without modification from the Founders Online website.
-Any data weirdness (of which there is some) lives in the original data
-source. This is only to say that the user can make their own decisions
-on how to address some of these issues as all original data exist in the
-files made available here. 
+With the exception of the `text` column, the data presented here have  
+been extracted without modification from the Founders Online website.  
+Any data weirdness (of which there is some) lives in the original data  
+source. This is only to say that the user can make their own decisions  
+on how to address some of these issues as all original data exist in the  
+files made available here.   
 
 
 
 
 ## Acknowlegments
 
-Thanks to the Founding Fathers, for their actions and words, without which, the creation of this dataset would not be possible.
+Thanks to the Founding Fathers, for their actions and words, without  
+which, the creation of this dataset would not be possible.  
 
-Thanks to the folks at [Founders Online](https://founders.archives.gov/about), who did the hard work of digitizing and aggregating the data.
+Thanks to the folks at [Founders Online](https://founders.archives.gov/about), who did the hard work of  
+digitizing and aggregating the data.  
 
-Thanks to the GitHub user [jaytimm](https://github.com/jaytimm), who gathered the data from Founders Online and made it available at their [founders-online-corpus](https://github.com/jaytimm/founders-online-corpus/tree/master) repository.
+Thanks to the GitHub user [jaytimm](https://github.com/jaytimm), who gathered the data from the  
+[Founders Online API](https://founders.archives.gov/API/docdata/) and made it available at their  
+[founders-online-corpus](https://github.com/jaytimm/founders-online-corpus/tree/master) repository.  
 
+  
+  
+---   
+
+
+
+  
