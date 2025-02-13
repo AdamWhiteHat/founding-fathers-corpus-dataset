@@ -1,10 +1,12 @@
-# founding-fathers-corpus-dataset
- A corpus of correspondences & other writings of US Founding Fathers, credit to Founders Online.
+# Founding Fathers Corpus Dataset
 
-Founding Fathers Corpus Dataset
-----------------------
-**A ~180k documents, 66 million-word corpus**.
+**A ~180k documents, 66 million-word corpus**
 
+
+![1500x500-American-Flag-Twitter-Header0028](https://github.com/user-attachments/assets/962dac91-c384-49af-bfe3-a09c98a7e2a6)
+
+
+## Description
 [Founders Online](https://founders.archives.gov/) is a [National
 Archives](https://www.archives.gov/) resource that makes available
 \~180K writings/letters of the Founders of the United States of America.
@@ -21,7 +23,7 @@ Since these were mostly text and compress very well, it was silly to leave them 
 
 
 
-### Files, Names, Counts
+## Files, Names, Counts
 
 | file name                   | years    | doc count | word count  |
 |:----------------------------|:-------- |:----------|:------------|
@@ -42,7 +44,7 @@ explanation).
 
 
 
-### Data Sample
+## Data Sample
 
 ```
 "title","permalink","project","authors","recipients","date_from","date_to","api","og_text","text","period"
@@ -68,7 +70,7 @@ Categories/dates are based on Founders Online.
 
 
 
-### Caveats
+## Caveats
 
 With the exception of the `text` column, the data presented here have
 been extracted without modification from the Founders Online website.
@@ -80,7 +82,7 @@ files made available here.
 
 
 
-### Acknowlegments
+## Acknowlegments
 
 Thanks to the Founding Fathers, for their actions and words, without which, the creation of this dataset would not be possible.
 
